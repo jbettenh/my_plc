@@ -1,0 +1,73 @@
+{
+  "id": "110",
+  "type": "PLC",
+  "name": "s300",
+  "short_name": "short",
+  "description": "Frame PLC",
+  "takt": "10",
+  "interfaces": {
+    "interface": [
+      {
+        "id": "001",
+        "name": "int01",
+        "ip_address": "0.0.0.0",
+        "port": "8000",
+        "components": [
+          {
+            "component": [
+              {
+                "name": "tracker",
+                "telegrams": [
+                  {
+                    "fp": 5001,
+                    "type": "location",
+                    "takt": "001"
+                  },
+                  {
+                    "fp": 5002,
+                    "type": "location",
+                    "takt": "002"
+                  },
+                  {
+                    "fp": 5003,
+                    "type": "location",
+                    "takt": "003"
+                  }
+                ]
+              },
+              {
+                "name": "builder",
+                "telegrams": [
+                  {
+                    "fp": 5001,
+                    "type": "robot01",
+                    "takt": "001"
+                  },
+                  {
+                    "fp": 5002,
+                    "type": "robot02",
+                    "takt": "001"
+                  }
+                ]
+              },
+              {
+                "name": "sequencer",
+                "telegrams": [
+                  {
+                    "fp": 5001,
+                    "type": "sequence",
+                    "takt": "001"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+

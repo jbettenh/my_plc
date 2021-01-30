@@ -18,7 +18,6 @@ __pycache__/
 /.idea/*
 
 # Config files
-/config.json
 /q_telegram.json
 
 # File outputs
