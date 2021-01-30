@@ -1,4 +1,3 @@
-import ipaddress
 import json
 import os
 import random
@@ -8,7 +7,7 @@ import socket
 def main():
     ip = "192.168.2.2"
 
-    print(f'{ip:<40} | {str(valid_ip(ip)):<5} | {valid_ip4_addr(ip)}')
+    print(f'{ip:<15} | {valid_ip4_addr(ip)}')
 
 
 def load_config():
@@ -20,14 +19,6 @@ def load_config():
 
     with open(filename, 'r', encoding='utf-8') as fin:
         return json.load(fin)
-
-
-def valid_ip(ip: str) -> bool:
-    try:
-        ipaddress.ip_address(ip)
-        return True
-    except ValueError:
-        return False
 
 
 def valid_ip4_addr(ip: str) -> bool:
