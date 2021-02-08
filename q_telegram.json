@@ -1,0 +1,107 @@
+{
+  "type": "wa",
+  "name": "wheel",
+  "headers": {
+    "FP": "711001",
+    "TL": "J",
+    "TN": "01",
+    "AA": "WA",
+    "AW": "01"
+  },
+  "quality": {
+    "QI": "T_0001",
+    "QA": "IO",
+    "FE": "GUT",
+    "QS": "00",
+    "US": "000000",
+    "AP": "01"
+  },
+  "process": {
+    "PI": "PU",
+    "PW": "dd"
+  },
+  "main_results": [
+    {
+      "ID": "P_F001",
+      "USER_ID": "ANL",
+      "PLACE": "T001",
+      "TYPE": " P ",
+      "part_results": [
+        {
+          "ID": "0101",
+          "INDEX": "01",
+          "MEASUREMENTS": [
+            {
+              "id": "1",
+              "MAX_VAL": "0.60",
+              "MIN_VAL": "0.40",
+              "UNIT": "46",
+              "VAL": "0.50"
+            },
+            {
+              "id": "2",
+              "MAX_VAL": "0.60",
+              "MIN_VAL": "0.40",
+              "UNIT": "46",
+              "VAL": "0.50"
+            },
+            {
+              "id": "3",
+              "MAX_VAL": "0.60",
+              "MIN_VAL": "0.40",
+              "UNIT": "46",
+              "VAL": "0.50"
+            },
+            {
+              "id": "4",
+              "MAX_VAL": "0.60",
+              "MIN_VAL": "0.40",
+              "UNIT": "46",
+              "VAL": "0.50"
+            },
+            {
+              "id": "5",
+              "MAX_VAL": "0.60",
+              "MIN_VAL": "0.40",
+              "UNIT": "46",
+              "VAL": "0.50"
+            },
+            {
+              "id": "6",
+              "MAX_VAL": "0.60",
+              "MIN_VAL": "0.40",
+              "UNIT": "46",
+              "VAL": "0.50"
+            }
+          ]
+        },
+        {
+          "ID": "0102",
+          "INDEX": "01",
+          "MEASUREMENTS": [
+            {
+              "id": "0101",
+              "INDEX": "01"
+            },
+            [
+              {
+                "id": "1",
+                "MAX_VAL": "0.60",
+                "MIN_VAL": "0.40",
+                "UNIT": "46",
+                "VAL": "0.50"
+              },
+              {
+                "id": "2",
+                "MAX_VAL": "0.60",
+                "MIN_VAL": "0.40",
+                "UNIT": "46",
+                "VAL": "0.50"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
